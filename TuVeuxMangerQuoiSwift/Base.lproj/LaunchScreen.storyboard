@@ -27,12 +27,58 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Une envie sucrée ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFl-EN-7tY">
+                                <rect key="frame" x="20" y="148" width="374" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="sSx-YF-Zaa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sucre" translatesAutoresizingMaskIntoConstraints="NO" id="IoT-6a-SUP">
+                                <rect key="frame" x="20" y="209" width="374" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="cAt-8s-NNy"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Une envie salée ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpq-RI-6eP">
+                                <rect key="frame" x="20" y="471" width="374" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="Slb-a7-gzX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7W0-lf-Mch">
+                                <rect key="frame" x="20" y="532" width="374" height="225"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="Vib-mt-98y"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IoT-6a-SUP" secondAttribute="trailing" constant="20" id="2vx-sw-tlU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JFl-EN-7tY" secondAttribute="trailing" constant="20" id="6rv-Ul-ItU"/>
+                            <constraint firstItem="IoT-6a-SUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6xd-vM-4dF"/>
+                            <constraint firstItem="JFl-EN-7tY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BUe-qY-3Rb"/>
+                            <constraint firstItem="IoT-6a-SUP" firstAttribute="top" secondItem="JFl-EN-7tY" secondAttribute="bottom" constant="8" id="CiM-sQ-NWW"/>
+                            <constraint firstItem="xpq-RI-6eP" firstAttribute="top" secondItem="IoT-6a-SUP" secondAttribute="bottom" constant="37" id="G64-Lh-joZ"/>
+                            <constraint firstItem="JFl-EN-7tY" firstAttribute="top" secondItem="KgR-CW-45E" secondAttribute="bottom" constant="29" id="I1b-Ex-4AL"/>
                             <constraint firstItem="KgR-CW-45E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KF9-PR-3dP"/>
+                            <constraint firstItem="xpq-RI-6eP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="P4m-v8-Jch"/>
+                            <constraint firstItem="IoT-6a-SUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PcX-lB-itk"/>
+                            <constraint firstItem="IoT-6a-SUP" firstAttribute="top" secondItem="JFl-EN-7tY" secondAttribute="bottom" constant="8" id="Pse-Nc-SzJ"/>
                             <constraint firstItem="KgR-CW-45E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="jp7-g7-Pda"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7W0-lf-Mch" secondAttribute="trailing" constant="20" id="kM4-2n-Sre"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IoT-6a-SUP" secondAttribute="trailing" constant="20" id="lFu-UZ-aW7"/>
+                            <constraint firstItem="7W0-lf-Mch" firstAttribute="top" secondItem="xpq-RI-6eP" secondAttribute="bottom" constant="8" id="qFi-Ks-Fc7"/>
+                            <constraint firstItem="7W0-lf-Mch" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="s36-hw-3b7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xpq-RI-6eP" secondAttribute="trailing" constant="20" id="sCz-MI-so8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KgR-CW-45E" secondAttribute="trailing" constant="20" id="vpw-t7-MeD"/>
+                            <constraint firstItem="IoT-6a-SUP" firstAttribute="top" secondItem="JFl-EN-7tY" secondAttribute="bottom" id="xyv-HX-MNb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -42,4 +88,7 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sucre" width="1486.5" height="991"/>
+    </resources>
 </document>
